@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document  */
+.login_section { background-color:#a279ae; padding-top:24px; }
+.login_section h1 { color:#3e0f4b; font-size:42px; font-weight: 300; }
+.login_section h2 { color:#d30820; font-size:42px; font-weight: 300; }
+.login_section .small { color:#9e9d9a; font-size:14px; font-weight: 300; }
+.login_section label {font-size:18px; color:#847f84; font-weight: 300;  padding-bottom:12px; padding-top:30px;}
+
+
+.register label {font-size:18px; color:#847f84; font-weight: 300; padding:0 !important;}
+.forgotLnk
+{
+    margin-top: 10px;
+    display: block;
+}
+
+.purple-bg
+{
+    background-color: #6E329D;
+    color: #fff;
+}
+.or-box
+{
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 20px;
+    margin-top:20px;
+}
+.or
+{
+    color: #666666;
+    background-color: #ffffff;
+    position: absolute;
+    text-align: center;
+    top: -18px;
+    width:auto;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:18px;
+	font-family:'Roboto Slab', serif;
+	
+    left: 35%;
+}
+.account-box .btn:hover
+{
+    color: #fff;
+}
+.btn-facebook
+{
+    background-color: #3F639E;
+    color: #fff;
+    font-weight:bold;
+}
+.btn-google
+{
+    background-color: #454545;
+    color: #fff;
+    font-weight:bold;
+}
+
+.form-group .required .control-label:after {
+  content:"*";color:red;
+}
